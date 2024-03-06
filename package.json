@@ -1,0 +1,24 @@
+{
+  "name": "only-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/app.js",
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "start": "node lib/app.js",
+    "compile": "tsc -b",
+    "compile:watch": "tsc -b --watch",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "check-updates": "ncu -u"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.11",
+    "jest": "^29.7.0",
+    "npm-check-updates": "^10.0.0",
+    "ts-jest": "^29.1.2",
+    "typescript": "^4.0.5"
+  }
+}
